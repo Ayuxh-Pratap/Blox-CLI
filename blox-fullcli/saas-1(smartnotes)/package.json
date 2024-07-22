@@ -1,0 +1,25 @@
+{
+  "name": "bui-saas-bt1",
+  "version": "1.2.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "bui-saas-bt1": "./bin/create-next-app.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "bin",
+    "template"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "commander": "^9.5.0",
+    "fs-extra": "^10.1.0",
+    "ora": "^8.0.1"
+  }
+}
