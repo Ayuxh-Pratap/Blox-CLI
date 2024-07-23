@@ -78,8 +78,8 @@ program
 
     const spinner = ora(`Adding component ${chalk.cyan(component)}...`).start();
 
-    const componentTemplatePath = path.join(__dirname, 'components', `${component}.js`);
-    const destinationPath = path.join(process.cwd(), 'components','blox',`${component}.js`);
+    const componentTemplatePath = path.join(__dirname, 'components', `${component}.jsx`);
+    const destinationPath = path.join(process.cwd(), 'components','blox',`${component}.jsx`);
 
     await simulateProgress(spinner, `Locating template for ${component}...`, 2000);
 
