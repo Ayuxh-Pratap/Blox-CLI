@@ -1,0 +1,21 @@
+{
+  "name": "bloxui-comadd",
+  "version": "2.1.0",
+  "description": "BloxUI CLI to initialize and add components",
+  "main": "bloxui-comadd-cli.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["CLI", "BloxUI", "React", "Components"],
+  "author": "Ayush Pratap Singh",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^12.1.0",
+    "ora": "^6.0.1",
+    "chalk": "^5.0.1",
+    "inquirer": "^9.0.0"
+  },
+  "bin": {
+    "bloxui-comadd": "./bloxui-comadd-cli.js"
+  }
+}
