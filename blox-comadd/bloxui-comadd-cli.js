@@ -57,6 +57,14 @@ program
       await simulateProgress(spinner, 'Finalizing setup...', 2000);
 
       spinner.succeed(chalk.green('BloxUI initialization complete.'));
+
+      console.log(chalk.cyan('\nAwesome! BloxUI is now initialized.'));
+      console.log(chalk.green('You can start adding templates and components using the following commands:'));
+      console.log(chalk.yellow('\nTo add a new component:'));
+      console.log(chalk.blue('bloxui-comadd add <component-name>'));
+      console.log(chalk.yellow('\nTo explore available templates, check out our documentation or the CLI Tools library.'));
+      console.log(chalk.green('Happy coding with BloxUI!'));
+
     }
   });
 
